@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 # script displays listening ports
-ss -tulnp
-ss -xlnp
+sudo netstat -tupn
